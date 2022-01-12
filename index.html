@@ -1,140 +1,154 @@
 <!DOCTYPE html>
-<link href="style.css" rel="stylesheet">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Resume | Noah Ergezinger</title>
+</head>
 
 <html>
 
-    <h1>Noah Ergezinger</h1>
-    <div class="flex">
+    <!-- <div class="flex" id="header"> -->
+        <div class="column" id="name">
+            <h1>Noah Ergezinger</h1>
+            <h4 id="degree">University of Alberta | BSc with Specialization, Major in Computing Science</h4>
+            <h5>2017 - 2021</h5>
+        </div>
         <div class="column" id="contact">
             <p><a href="mailto:noah.ergezinger@gmail.com">noah.ergezinger@gmail.com</a></p>
             <p><a href="https://github.com/NErgezinger">github.com/NErgezinger</a></p>
             <p>Edmonton, AB</p>
         </div>
-        <div class="column" id="aboutme">
+        <!-- <div class="column" id="aboutme">
             <p>I am a recent graduate of Computing Science at the University of Alberta, looking forward to working as a software developer on exciting
-            projects involving data processing, web services, automation, simulation, and anything else that sounds interesting. I am open-minded and optimistic while cooperating with a team.</p>
-        </div>
-    </div>
+            projects involving data processing, web services, automation, simulation, and anything else that sounds interesting. I bring open-mindedness and positivity to any team environment.</p>
+        </div> -->
+    <!-- </div> -->
 
     <div class="flex">
         <div class="column", id="left">
             <h2>Experience</h2>
-            <ul>
-                <li>
-                    <h3>Manager of Technology</h3>
-                    <h5>Imagine Cities <br>
-                    December 2021 - Present </h5>
+                <h3>Manager of Technology</h3>
+                    <h5>Imagine Cities, December 2021 - Present </h5>
                     <p>
-                        I manage a small team of programmers to produce the Imagine Cities Search Tool and maintain the informational Imagine Cities website.
-                        I also perform production and DevOps tasks such as server maintenance and automated deployment. 
+                        I manage a team of two junior developers to maintain a <b>Django</b>-based internal publishing tool, used by 12 volunteers, 
+                        as well as an as-of-yet launched search engine. I also maintain the web server deployed with <b>Gunicorn</b>, <b>Nginx</b>, 
+                        and perform automated testing and deployment with a <b>CI/CD</b> pipeline using a self-hosted <b>Github Actions Runner</b>. 
                     </p>
-                </li>
-                <li>
-                    <h3>Research Assistant</h3>
-                    <h5>University of Alberta, Department of Civil & Environmental Engineering <br>
-                        May - August 2019, May - August 2020, May - August 2021</h5>
-                    <p>Participated in the research and development of multiple projects involving data processing and filtering, numerical analysis, web publishing, and visual recognition.
-                    Involved in writing two published papers, Lead-Authoring one and Co-Authoring another.</p>
-                </li>
-                <!-- <li>
-                    <h3>Deli Clerk</h3>
-                    <h5>Safeway, May 2018 - February 2019</h5>
-                    <p>Attended to and general preparation of the deli counter. Provided customer service in varying circumstances.</p>
-                </li> -->
-                <li>
-                    <h3>High School Internship Program</h3>
-                    <h5>University of Alberta, Department of Computing Science <br> 
-                        July - August 2016</h5>
-                    <p>Worked with a team on developing AI programs to play the board game <i>Hex</i> using Monte-Carlo graph search techniques. Produced an end-of-term poster and presented our summer accomplishments at a mock conference. </p>
-                </li>
-            </ul>
 
-            <h2>Volunteering</h2>
-            <ul>
-                <li>
-                    Executive, University of Alberta Squash Club, <br>
-                    <i>September 2020 - December 2021</i>
-                </li>
-                <li>
-                    Summer youth camp, Athabasca AB, <i>August 2017</i>
-                </li>
-                <li>
-                    Various Squash tournaments, Registration Desk
-                </li>
-            </ul>
+                <h3>Software Developer</h3>
+                    <h5>MecSim Consulting and Engineering, May - August 2021</h5>
+                    <p>
+                        Worked in a team of two to develop and deploy web applications for research projects using <b>React</b>, <b>Next.js</b>, and <b>Django</b>.
+                        Commuicated with researchers to convert existing <b>Matlab</b> programs to interactive web applications that perform data processing and visualization. 
+                    </p>
+
+                <h3>Research Assistant</h3>
+                    <h5>
+                        University of Alberta, Department of Civil & Environmental Engineering
+                        <br>
+                        May - August 2019, May - August 2020
+                    </h5>
+                    <p>
+                        Participated in the research and development of multiple projects involving data processing and filtering, scientific computing, web publishing, and computer vision.
+                        Involved in writing two published papers, Lead-Authoring one and Co-Authoring another.
+                    </p>
+
+                <!-- No Longer Relevent -->
+                <!-- <h3>Deli Clerk</h3>
+                <h5>Safeway, May 2018 - February 2019</h5>
+                <p>Attended to and general preparation of the deli counter. Provided customer service in varying circumstances.</p> -->
+
+                <h3>High School Internship Program</h3>
+                <h5>
+                    University of Alberta, Department of Computing Science
+                    <br>
+                    July - August 2016</h5>
+                <p>
+                    Developed AI programs to play the board game <i>Hex</i> using Monte-Carlo graph search techniques with <b>Python</b> and <b>Numpy</b>. 
+                    Produced an end-of-term poster and presented our summer accomplishments at a mock conference.
+                </p>
 
             <h2>Publications</h2>
-            <ul>
-                <li>
-                    <b>Ergezinger, N,</b> Virk, AS, Woo, J, Kainat, M, & Adeeb, S. <br>
-                    <b>"Application of Noise Filtering Techniques for the Quantification of Uncertainty in Dent Strain Calculations."</b>  <br>
-                    <div style="font-size:12px;"><i>Proceedings of the 2020 13th International Pipeline Conference. Volume 1: Pipeline and Facilities Integrity.</i> Virtual, Online. September 28–30, 2020. V001T03A026. ASME. <a href="https://doi.org/10.1115/IPC2020-9580">https://doi.org/10.1115/IPC2020-9580</a></div>
-                </li>
-                <li>
-                    Baclig MM, <b>Ergezinger N,</b> Mei Q, Gül M, Adeeb S, Westover L. <br>
-                    <b>"A Deep Learning and Computer Vision Based Multi-Player Tracker for Squash." <br> </b>
-                    <div style="font-size:12px;"><i>Applied Sciences.</i> 2020; 10(24):8793. <a href="https://doi.org/10.3390/app10248793">https://doi.org/10.3390/app10248793</a> </div>
-                </li>
-            </ul>
+            <br>
+            <div id="publications">
+                <b>Ergezinger, N,</b> Virk, AS, Woo, J, Kainat, M, & Adeeb, S. <br>
+                <b>Application of Noise Filtering Techniques for the Quantification of Uncertainty in Dent Strain Calculations.</b>
+                <br>
+                <div class="citation">
+                    <i>Proceedings of the 2020 13th International Pipeline Conference. Volume 1: Pipeline and Facilities Integrity.</i> 
+                    Virtual, Online. September 28-30, 2020. V001T03A026. ASME. <a href="https://doi.org/10.1115/IPC2020-9580">https://doi.org/10.1115/IPC2020-9580</a>
+                </div>
+
+                <br>
+
+                Baclig MM, <b>Ergezinger N,</b> Mei Q, Gül M, Adeeb S, Westover L. <br>
+                <b>A Deep Learning and Computer Vision Based <br> Multi-Player Tracker for Squash.</b>
+                <br>
+                <div class="citation"><i>Applied Sciences.</i> 2020; 10(24):8793. <a href="https://doi.org/10.3390/app10248793">https://doi.org/10.3390/app10248793</a> </div>
+            </div>
         </div>
 
         <div class="column" id="right">
 
-            <h2>Education</h2>
-            <ul>
-                <li>
-                    <b>BSc with Specialization, <br> Major in Computing Science</b> <br>
-                    University of Alberta <br>
-                    <i>Graduated December 2021</i>
-                </li>
-                <li>
-                    <b>High School</b> <br>
-                    W.P. Wagner <br>
-                    <i>Graduated 2017 with Honors</i>
-                </li>
-            </ul>
+            <!-- <h2>Education</h2> -->
+                <!-- <h3>University of Alberta</h3>
+                <h4 id="degree">BSc with Specialization, <br> Major in Computing Science</h4>
+                <h5>Graduated December 2021</h5> -->
 
-            <h2>Skills</h2>
-            <h3>Programming Languages</h3>
-            <ul>
-                <li>
-                    <b>Fluent:</b> 
-                    <ul style="margin-top: 0;">
-                        <li>Python, C, C++</li>
-                        <li>Javascript, AJAX</li>
-                        <li>HTML, CSS, Jinja</li>
-                    </ul>
-                </li>
-                <li>
-                    <b>Some Experience: </b>
-                    <ul style="margin-top: 0;">
-                        <li>JSX, Typescript</li>
-                        <li>SQL, XQuery, SPARQL</li>
-                        <li>Java, Kotlin</li>
-                        <li>C#, Unity C#</li>
-                        <li>MATLAB, VBA, CUDA</li>
-                    </ul>
-                </li>
-            </ul>
+                <!-- No Longer Relevent -->
+                <!-- <b>High School</b> <br>
+                W.P. Wagner <br>
+                <i>Graduated 2017 with Honors</i> -->
 
-            <h3>Tools and Frameworks</h3>
+            <h2>Languages and Frameworks</h2>
+            <br>
+            <p><b>Fluent:</b></p>
+                <ul style="margin-top: 0;">
+                    <li>Python, C, C++</li>
+                    <li>Javascript, AJAX</li>
+                    <li>HTML, CSS, Jinja</li>
+                    <li>Django, Numpy, Scipy, Pandas, Pytorch</li>
+                </ul>
+            <p><b>Some Experience: </b></p>
+                <ul style="margin-top: 0;">
+                    <li>JSX, Typescript</li>
+                    <li>Flask, Node.js, React</li>
+                    <li>SQL, XQuery, SPARQL</li>
+                    <li>Java, Kotlin</li>
+                    <li>C#, Unity C#</li>
+                    <li>MATLAB, VBA, CUDA</li>
+                </ul>
+
+            <h2>Tools</h3>
             <ul>
-                <li>Git, Unix, Bash, Make, Regex</li>
-                <li>Numpy, Scipy, Pandas, Pytorch</li>
-                <li>Django, Flask, Node.js, React</li>
+                <li>Git, Unix, Bash, Make, Regex</li>      
                 <li>Nginx, Gunicorn, system/journalctl</li>
-                <li>Github, Github Actions</li>
+                <li>Github Actions, Actions Runner</li>
                 <li>VSCode, Visual Studio, Excel, Unity</li>
             </ul>
 
+            <h2>Volunteering</h2>
+                <h4>President, <br> University of Alberta Squash Club </h4>
+                <h5>September 2020 - December 2021</h5>
+                
+
+                <h4>Summer youth camp </h4>
+                <h5>Athabasca AB, August 2017</h5>
+                
+                <h4>Registration Desk</h4>
+                <h5>Various Squash tournaments</h5>
+
             <h2>Awards and Achievements</h2>
-            <ul>
-                <li>NSERC USRA, <i>May 2019 & May 2020</i></li>
-                <li>Squash Alberta University & College Championships, Teams Event: <br> 
-                    <i>Silver - 2017, Bronze - 2018</i> </li>
-                <li>Alexander Rutherford Scholarship, <i>2017</i> </li>
-                <li>Iverson Computing Science Exam, 6th place provincially, <i>May 2017</i></li>
-            </ul>
+                <h4>NSERC USRA</h4>
+                <h5>May 2019 & May 2020</h5>
+                
+                <h4>Squash Alberta University & College Championships, Teams Event</h4> 
+                <h5>Silver - 2017, Bronze - 2018</h5>
+                    
+                <h4>Iverson Computing Science Exam</h4>
+                <h5>6th place provincially, May 2017</h5>
+                
+                <!-- Not as relevent, doesn't fit in print size -->
+                <!-- <li style="font-size: 15px;">Alexander Rutherford Scholarship, <i>2017</i></li> -->
         </div>
     </div>
 
