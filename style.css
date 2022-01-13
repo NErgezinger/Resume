@@ -1,6 +1,7 @@
 html {
     font-family: Calibri, sans-serif;
     width: 8.5in;
+    /* height: 11in; */
     margin: auto; 
     /* font-weight: lighter; */
 }
@@ -13,7 +14,7 @@ body {
 p {
     font-size: 1em;
     margin-top: 0;
-    margin-bottom: 1em;
+    margin-bottom: 1.75em;
     font-weight: normal;
 }
 
@@ -29,15 +30,15 @@ a {
 
 h1 {
     position: relative;
-    top: -.2em;
-    margin-top: 0;
-    font-size: 3em;
+    top: -.1em;
+    margin: 0;
+    font-size: 2.72em;
     font-weight: lighter;
 }
 
 h2 {
-    margin-top: 0.75em;
-    margin-bottom: 0.25em;
+    margin-top: 0.7em;
+    margin-bottom: 0.4em;
     border-bottom: black solid 1px;
     font-weight: lighter;
     font-size: 1.6em;
@@ -66,7 +67,7 @@ h5 {
 }
 
 h6 {
-    margin-top: .5em;
+    margin-top: .6em;
     margin-bottom: 0;
     font-style: italic;
 }
@@ -76,12 +77,17 @@ h6 {
     gap: 2em;
 }
 
-#left {
-    width: 60%;
+#content {
+    margin-top: -1em;
 }
 
-#right {
+#experience {
     flex: 1;
+    
+}
+
+#skills {
+    width: 285px;
 }
 
 #name {
@@ -94,7 +100,6 @@ h6 {
 
 #contact {
     margin-top: 0.5em;
-    text-align: right;
     align-self: flex-start;
     flex: 1;
 }
